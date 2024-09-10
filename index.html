@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Karol G</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link href="assets/css/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/all.css" rel="stylesheet" type="text/css" />
+
+    <script src="assets/js/mijs.js"></script>
+  </head>
+
+  <body>
+    <!-- Cabecera -->
+    <header>
+      <div><img src="assets/img/logoCUC.png" alt="logo Universidad" />Parcial 01</div>
+      <div style="margin-left: auto">Salir</div>
+    </header>
+
+    <!-- Menú izquierda -->
+    <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width: 160px">
+      <a href="#" class="w3-bar-item w3-button">
+        <i class="fa-solid fa-house azul"></i>
+        Inicio
+      </a>
+      <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
+        Canciones<i class="fa fa-caret-down"></i>
+      </button>
+      <div id="demoAcc" class="w3-hide w3-white w3-card">
+        <a href="pages/canciones_listar.html" class="w3-bar-item w3-button">Listar</a>
+        <a href="#" class="w3-bar-item w3-button">Administrar</a>
+      </div>
+
+      <div class="w3-dropdown-click">
+        <button class="w3-button" onclick="myDropFunc()">Conciertos <i class="fa fa-caret-down"></i></button>
+        <div id="demoDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+          <a href="#" class="w3-bar-item w3-button">Agregar</a>
+          <a href="#" class="w3-bar-item w3-button">Ubicaciones</a>
+        </div>
+      </div>
+      <a href="#" class="w3-bar-item w3-button">Acerca de</a>
+      <a href="#" class="w3-bar-item w3-button"> <i class="fa-solid fa-right-from-bracket"></i> Salir </a>
+    </div>
+
+    <!-- Cuerpo -->
+    <div class="w3-container" style="margin-left: 160px">
+      <div>
+        <ul class="breadcrumb">
+          <li><a href="#">Inicio</a></li>
+          <li>Bienvenido</li>
+        </ul>
+      </div>
+
+      <h2>Karol G: La Reina del Reguetón y Pop Urbano</h2>
+      <h3>
+        <p style="text-align: justify">
+          Carolina Giraldo Navarro, conocida artísticamente como Karol G, nació el 14 de febrero de 1991 en Medellín,
+          Colombia. Es una destacada cantante, compositora y empresaria que ha revolucionado la música urbana y el
+          reguetón. Desde temprana edad, Karol G mostró su pasión por la música, participando en el programa de talentos
+          “El Factor X” en Colombia. En 2012, lanzó su carrera internacional con la canción “301” junto a Reykon,
+          ganando popularidad en varios países. Su éxito continuó con colaboraciones notables, como “Ahora Me Llama” con
+          Bad Bunny, que fue el sencillo principal de su álbum debut “Unstoppable” en 2017. Este álbum alcanzó el
+          segundo puesto en la lista Top Latin Albums de Billboard.
+        </p>
+
+        <p style="text-align: justify">
+          Karol G ha sido reconocida con numerosos premios, incluyendo el Grammy Latino a Mejor Artista Nuevo en 2018.
+          Su colaboración con Nicki Minaj en “Tusa” se convirtió en un fenómeno global, certificada 28 veces platino
+          latino por la RIAA y permaneciendo en la lista Hot Latin Songs durante 25 semanas. Además de su éxito musical,
+          Karol G es una empresaria visionaria, fundadora de su propio sello discográfico, Bichota Records. Su
+          influencia y estilo único la han posicionado como una de las artistas más influyentes de la música latina
+          contemporánea.
+        </p>
+      </h3>
+    </div>
+  </body>
+</html>
